@@ -1,2 +1,2 @@
-# myTutorials-Umbrella
-This is a collection of the Tutorials that I am working on
+# Web
+This is a collection of Web projects that I am working on
