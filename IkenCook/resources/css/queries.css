@@ -1,0 +1,73 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+
+/*---Big Tablets---*/
+@media only screen and (max-width:1200px){
+    .hero-text-box{
+        width:100%;
+        padding: 0 2%;
+    }
+    .row{
+        padding: 0 2%;
+    }
+}
+
+/*---Small Tablets in Potrait mode or Big Tablets---*/
+@media only screen and (max-width:1023px){
+    body{font-size: 18px;}
+    section{padding: 60px 0;}
+    .long-copy{
+        width:80%;
+        margin-left: 15%;
+    }
+    .steps-box{margin-top: 10px;}
+    .steps-box:last-child{margin-top: 10px;}
+    .works-steps{margin-bottom: 40px;}
+    .works-stpe:last-of-type{margin-bottom: 60px;}
+    .app-screen{width: 50%;}
+    .contact-form{width:80%}
+
+}
+/*---Small Tablets---*/
+@media only screen and (max-width:767px){
+
+    body{font-size:16px}
+    section{padding:30px 0}
+
+    .row,
+    .hero-text-box{padding:0 4%}
+    .col{width: 100%;}
+    .main-nav{display:none}
+    
+    h1{font-size: 180%;}
+    h2{font-size: 150%;}
+
+    .long-copy{
+        width:100%;
+        margin-left:0%;
+    }
+
+    .steps-box:first-child{text-align: center;}
+    .works-step div{
+        height: 30px;
+        width: 30px;
+        margin-right: 15px;
+        padding: 4px;
+        font-size: 120%;
+    }
+    .app-screen{width: 30%;}
+
+    .works-step{ margin-bottom: 20px;}
+    .works-step:last-of-type{margin-bottom: 20px;}
+}
+/*---Small Phones---*/
+@media only screen and (max-width:480px){
+    section{padding:  25px 0;}
+    .contact-form {width: 100%;}
+
+}
