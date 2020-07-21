@@ -172,6 +172,17 @@ header{
 
 .sticky .logo{display: none;}
 
+/*====Mobile Navigation====*/
+.mobile-nav-icon{
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display:none;
+}
+.mobile-nav-icon ion-icon{
+font-size: 200%;
+color: #fff;
+}
 
 /*====Buttons======*/
 .btn:link,
@@ -214,6 +225,11 @@ color: #fff;
     color: #22a6b3;
     margin-bottom: 10px;
 }
+.js--menu-outline{
+font-size: 100%;
+}
+
+
 /*====Paragraphs======*/
 .long-copy{
     line-height: 145%;
